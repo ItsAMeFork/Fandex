@@ -32,15 +32,12 @@ function pickUrl(String){
 
 
 const url2 = window.location.href;
-function info(){
-    localStorage.intro = "Done";
-}
 function checkinfo(){
-    if(localStorage.intro === "Done"){
+    if(!localStorage.intro === "Done"){
         url22 = url2.substring(0, url2.lastIndexOf("/") + 1);
-        url22 += "library.html";
+        url22 += "landing.html";
         window.location.replace(url22);
-
+        localStorage.intro = "Done";
     }else{ 
     }
 }

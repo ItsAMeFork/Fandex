@@ -1248,13 +1248,13 @@ var books = [
 			'https://www.wuxiaworld.com/novel/against-the-gods/atg-chapter-2',
 		picture: 'https://cdn.novelupdates.com/images/2016/06/1416425191645.jpg'
 	},
-	// {
-	// 	id: 9,
-	// 	name: 'Unrivaled System',
-	// 	originalDesc: '',
-	// 	chapter: ``,
-	// 	chapter2:
-	// 		'https://www.webnovel.com/book/man-against-gods-(atg)_16738156606180205/freedom-and-the-beginning_44932353964950715',
-	// 	picture: 'http://img.webnovel.com/bookcover/16738156606180205/600/600.jpg?coverUpdateTime=1587429013597'
-	// },
+	{
+		id: 9,
+		name: '',
+		originalDesc: '',
+		chapter: ``,
+		chapter2:
+			'',
+		picture: 'https://i.stack.imgur.com/y9DpT.jpg'
+	},
 ];
