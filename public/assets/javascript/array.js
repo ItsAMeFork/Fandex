@@ -1248,13 +1248,13 @@ var books = [
 			'https://www.wuxiaworld.com/novel/against-the-gods/atg-chapter-2',
 		picture: 'https://cdn.novelupdates.com/images/2016/06/1416425191645.jpg'
 	},
-	{
-		id: 9,
-		name: '',
-		originalDesc: '',
-		chapter: ``,
-		chapter2:
-			'',
-		picture: 'https://i.stack.imgur.com/y9DpT.jpg'
-	},
+	// {
+	// 	id: 9,
+	// 	name: '',
+	// 	originalDesc: '',
+	// 	chapter: ``,
+	// 	chapter2:
+	// 		'',
+	// 	picture: 'https://i.stack.imgur.com/y9DpT.jpg'
+	// },
 ];

@@ -31,9 +31,10 @@ function pickUrl(String){
 
 
 
-const url2 = window.location.href;
+
 function checkinfo(){
-    if(!localStorage.intro === "Done"){
+    if(localStorage.intro != "Done"){
+        const url2 = window.location.href;
         url22 = url2.substring(0, url2.lastIndexOf("/") + 1);
         url22 += "landing.html";
         window.location.replace(url22);
