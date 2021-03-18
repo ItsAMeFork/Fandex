@@ -16,7 +16,7 @@ function bookInfo(bookId){
     document.querySelector(".info_container").innerHTML += `<h1 class="info_name">${books[bookId].name}</h1>`;
     document.querySelector(".info_container").innerHTML += `<p class="info_desc">${books[bookId].originalDesc}</p>`;
     // document.querySelector(".info_container").innerHTML += `<a href='reader.html' class="info_button">Read</a>`;
-    document.querySelector(".book").innerHTML += `<div class="info_read_chapter"><a href="reader.html" class="info_read"><h1 class="info_read_text">Read</h1></a></div>`;
+    document.querySelector(".book").innerHTML += `<div class="info_read_chapter"><a href="reader.html?id=${books[bookId].id}*" class="info_read"><h1 class="info_read_text">Read</h1></a></div>`;
     }else{
         console.log("a error has occurred");
     }
