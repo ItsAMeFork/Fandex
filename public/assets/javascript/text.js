@@ -2,7 +2,7 @@ function loadBook(bookId){
     if(books[bookId].id === bookId){
     document.querySelector(".book").innerHTML = `<h1 id="booktitle">${books[bookId].name}</h1>`;
     document.querySelector(".book").innerHTML += `<div class="chapter-container"><div id="chapter">${books[bookId].chapter}</div><div>`;
-    document.querySelector(".book").innerHTML += `<div id="chapter2-positioner"><a href="${books[bookId].chapter2}" id="chapter2"><h2 id="chapter2text">Next Chapter</h2></a></div>`;
+    document.querySelector(".book").innerHTML += `<div id="chapter2-positioner"><a href="${books[bookId].chapter2}" target="_blank" rel="noopener noreferrer" id="chapter2"><h2 id="chapter2text">Next Chapter</h2></a></div>`;
     }else{
         console.log("a error has occurred")
     }
