@@ -29,9 +29,37 @@ function libraryinfo(bookId){
         console.log("a error has occurred")
     }
 }
-function libraryload(){
+
+function lib(){
+    const opt = document.querySelector('#choice');
+    document.querySelector(".row").innerHTML = "";
+    library(opt.value);
+}
+function library(libtype){
+    if(libtype == "new"){
+        llnewfirst();
+    }
+    if(libtype == "old"){
+        ll();
+    }
+}
+
+
+function ll(){
     for(let i = 0; i < books.length;){
         libraryinfo(i);
+        i++
+    }
+}
+
+
+
+function llnewfirst(){
+    let length = books.length;
+    for(let i = 0; i < books.length;){
+        length--;
+        console.log(length);
+        libraryinfo(length);
         i++
     }
 }

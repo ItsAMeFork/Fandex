@@ -156,11 +156,17 @@
     <main class="content">
         <div class="text-container">
             <div class="book">
+                <form class="form" action="">
+                    <select onchange="lib()" id="choice">
+                        <option value="new" class="choiceoption">Newest first</option>
+                        <option value="old" class="choiceoption">Oldest first</option>
+                     </select>
+                </form>
                 <div class="row">
                 </div>
             </div>
         </div>
     </main>
     <script src="assets/javascript/urlpicker.js"></script>
-    <script>libraryload()</script>
+    <script>lib()</script>
 </body>
