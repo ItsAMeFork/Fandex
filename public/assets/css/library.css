@@ -18,7 +18,8 @@
     margin-top: 0rem;
     margin-bottom: -1rem;
     outline: none;
-    border-right: 3px solid var(--bg-secondary);
+    color: var(--text-primary);
+    border-right: 3px solid var(--bg-text);
 }
 .form{
     background-color: var(--bg-primary);
@@ -126,7 +127,7 @@
         border: none;
         padding: 1rem;
         width: 100%;
-        background: var(--text-secondary);
+        background: var(--bg-primary);
         margin-top: 0rem;
         margin-bottom: 0.25rem;
         outline: none;
