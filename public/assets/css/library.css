@@ -9,6 +9,10 @@
     --transition-speed: 600ms;
   }
 
+  *:focus {
+    outline: none;
+}
+
 #choice{
     justify-self: center;
     font-size: 1.5rem;
@@ -23,10 +27,12 @@
 }
 .form{
     background-color: var(--bg-primary);
+    outline: none;
 }
 .choiceoption {
     border: 1px solid var(--bg-primary);
     padding: 2rem;
+    outline: none;
 }
 .item{
     width: 25vw;
