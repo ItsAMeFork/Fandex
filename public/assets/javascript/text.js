@@ -58,7 +58,6 @@ function llnewfirst(){
     let length = books.length;
     for(let i = 0; i < books.length;){
         length--;
-        console.log(length);
         libraryinfo(length);
         i++
     }
