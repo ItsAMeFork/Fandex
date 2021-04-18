@@ -1406,6 +1406,14 @@ var books = [
 		chapter2: `https://www.webnovel.com/book/top-secret---adventures-in-the-dark-continent_17266968106248405/make-a-choice_46364573908926009`,
 		picture: `http://img.webnovel.com/bookcover/17266968106248405/600/600.jpg?coverUpdateTime=1592715812959`
 	},
+	{
+		id: 40,
+		name: `La Leyenda del Kyubi [Español]`,
+		originalDesc: `Un pasado desconocido, con solo fragmentos de su antigua vida, una joven alma renace en el mundo que tanto deseo con el objetivo de así poder cumplir su sueño pero un accidente lo cambiará todo.¿Qué cambias traerá su presencia en este mundo?¿Cuantos destinos cambiarán por su culpa?Eso, lo descubrirás, tú...*************************************Disclaimer: No soy dueño del trabajo original "Naruto", ni de ninguno de sus personajes.*************************************Si les gustó la historia, pueden apoyarme a través de pa treon con el siguiente link.https://www.pa treon.com/GenoXX`,
+		chapter: ``,
+		chapter2: ``,
+		picture: `https://img.webnovel.com/bookcover/12994430405286605/600/600.jpg?coverUpdateTime=1559683373442`
+	},
 ];
 
 
