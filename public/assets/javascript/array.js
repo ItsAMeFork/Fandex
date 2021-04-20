@@ -1414,6 +1414,14 @@ var books = [
 		chapter2: ``,
 		picture: `https://img.webnovel.com/bookcover/12994430405286605/600/600.jpg?coverUpdateTime=1559683373442`
 	},
+	{
+        id: 41,
+        name: 'Transmigrated as Kazuya',
+        originalDesc: "What if you suddenly got transmigrated into a new world. And it's even got some of your favorite anime characters? You also got an omnipotent system to help you. This is the story of an otaku who was transmigrated as Kinoshita Kazuya and his new life.<br><br>(AN: Also please leave comments or your opinions about the chapters and proper reviews okay? That's all I'm asking for since, that's all my entertainment for writing this fanfic. And please leave your honest thoughts, I promise I will read every one of them even if they are hate comments or whatever)<br><br>WARNING: There will be plotholes and cringe moments. And also some characters in this will sometimes differ from their canon counterpart in terms of maybe their personality, some history, etc. And this story mainly revolves around the desire of the mc to do what he wish. So, please leave if you don't like any info I wrote above.<br><br>(PS: I dont know how to classify this fanfic but it will contain many slice of life chapters mixed with some actions so I don't know. Well it's up to you guys how you classify this novel whether a slice of life or action etc.<br><br>Warning: Before reading this, I just want to inform you that Kanokari will not be the focus of this and it will be boring mostly for some. I just took the characters so don't expect that the plot will follow KanoKari just because the mc is Kazuya. So please leave and don't review this fic if you don't like it.",
+        chapter: 'this is the chapter',
+        chapter2: 'link to second chapter',
+        picture: 'https://img.webnovel.com/bookcover/19420471305275805/600/600.jpg?coverUpdateTime=1615974561463',
+    }
 ];
 
 
@@ -1427,4 +1435,4 @@ var books = [
 // },
 
 
-{/* <p>------------------------</p><br>		<h3> Fork Note: </h3><br>		<p> please note that on webnovel this is not english u have to use a translator to read this </p> */}
+/* <p>------------------------</p><br>		<h3> Fork Note: </h3><br>		<p> please note that on webnovel this is not english u have to use a translator to read this </p> */
