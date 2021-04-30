@@ -62,3 +62,70 @@ function llnewfirst(){
         i++
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+// blacklist
+
+
+
+function blacklistbookInfo(bookId){
+    if(blacklist[bookId].id === bookId){
+    document.querySelector(".book").innerHTML = `<div class="info-picture-container"><div class="info_picture_link"><img class="info_picture" src="${blacklist[bookId].picture}"></div>`;
+    document.querySelector(".book").innerHTML += `<div class="info_container"><div>`;
+    document.querySelector(".info_container").innerHTML += `<h1 class="info_name">${blacklist[bookId].name}</h1>`;
+    document.querySelector(".info_container").innerHTML += `<p class="info_desc">${blacklist[bookId].originalDesc}</p>`;
+    }else{
+        console.log("a error has occurred");
+    }
+}
+
+function blacklistlibraryinfo(bookId){
+    if(blacklist[bookId].id === bookId){
+        document.querySelector(".row").innerHTML += `<a href="blbook.html?id=${bookId}*" class="item"><div class="pictureContainer"><img class="picture"src="${blacklist[bookId].picture}"alt=""></img> </div> <div class="infoContainer"><div class="title">${blacklist[bookId].name}</div><div class="sum">${blacklist[bookId].originalDesc}</div></div></a>`
+    }else{
+        console.log("a error has occurred")
+    }
+}
+
+function blacklistlib(){
+    const opt = document.querySelector('#choice');
+    document.querySelector(".row").innerHTML = "";
+    blacklistlibrary(opt.value);
+}
+function blacklistlibrary(libtype){
+    if(libtype == "new"){
+        blacklistllnewfirst();
+    }
+    if(libtype == "old"){
+        blacklistll();
+    }
+}
+
+
+function blacklistll(){
+    for(let i = 0; i < blacklist.length;){
+        blacklistlibraryinfo(i);
+        i++
+    }
+}
+
+
+
+function blacklistllnewfirst(){
+    let length = blacklist.length;
+    for(let i = 0; i < blacklist.length;){
+        length--;
+        blacklistlibraryinfo(length);
+        i++
+    }
+}

@@ -27,6 +27,35 @@ function pickUrl(String){
     }
 }
 
+function blpickUrl(String){
+    const url = window.location.href;
+    if(url.includes("?id")){
+        let urlInfo = url.split("*")[0];
+        let urlId = urlInfo.split("?");
+    
+        let isId = urlId[1].split("=");
+        let id = parseInt(isId[1]);
+        if(String==='book-information'){
+            blacklistbookInfo(id);
+        }
+
+        if(String === "reader"){
+            blacklistbookInfo(id);
+        }
+
+        else {
+            return;
+        }
+    }else{
+        if(String === "book-information"){
+            window.location.replace(`${url}?id=0*`)
+        }
+        if(String === "reader"){
+        window.location.replace(`${url}?id=0*`)
+    }
+    }
+}
+
 
 
 
